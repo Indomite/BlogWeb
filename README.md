@@ -1,27 +1,24 @@
-# PersonalBlog-front
+# blogfront
 
-### 前台模块
+## Project setup
+```
+npm install
+```
 
-**首页**
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-- 推荐文章（时间或者点赞数）
-- 登录、注册（只有在登录注册之后才能点赞和评论）
+### Compiles and minifies for production
+```
+npm run build
+```
 
-**个人主页**
+### Lints and fixes files
+```
+npm run lint
+```
 
-- 展示个人博客信息
-- 个人标签
-
-**标签页**
-
-- 分类展示文章
-- 统计文章数量
-
-**文章页**
-
-- 展示文章信息
-- 点赞、评论（只有登录只有才可以操作）
-
-**留言板**
-
-- 登录之后可留言给超级管理员
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
