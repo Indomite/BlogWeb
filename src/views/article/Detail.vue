@@ -1,5 +1,5 @@
 <template>
-  <div>tag</div>
+  <div>detail</div>
 </template>
 
 <script>
