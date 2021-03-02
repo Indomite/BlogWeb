@@ -5,7 +5,8 @@ import axios from 'axios'
 import './assets/css/common.css'
 
 Vue.config.productionTip = false
-Vue.prototype.$axios = axios
+axios.defaults.baseURL = 'http://localhost:5000/api/'
+Vue.prototype.$http = axios
 
 new Vue({
   router,
