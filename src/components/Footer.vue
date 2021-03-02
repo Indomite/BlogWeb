@@ -14,7 +14,7 @@ export default {
 <style lang='less' scoped>
 .footer {
     padding: 2rem 8rem;
-    background: #eee;
+    // background: #eee;
     display: flex;
     justify-content: space-between;
 }

@@ -18,19 +18,30 @@
       </div>
       <div class="link">
           <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li><EmailSVG /></li>
+              <li>
+                <a href="https://github.com/Indomite"><GitHubSVG /></a>
+              </li>
+              <li><RssSVG /></li>
+              <li><a href="http://localhost:8080"><LoginSVG /></a></li>
           </ul>
       </div>
   </div>
 </template>
 
 <script>
+import EmailSVG from '__SVG__/email.svg'
+import GitHubSVG from '__SVG__/github.svg'
+import RssSVG from '__SVG__/rss.svg'
+import LoginSVG from '__SVG__/login.svg'
 
 export default {
-    components: {}
+    components: {
+      EmailSVG,
+      GitHubSVG,
+      RssSVG,
+      LoginSVG
+    }
 }
 
 </script>
@@ -38,8 +49,9 @@ export default {
 <style lang='less' scoped>
 .header {
     display: flex;
+    justify-content: space-between;
     padding: 1rem 4rem;
-    background: #eee;
+    // background: #eee;
     .nav ul {
         display: flex;
         li {
@@ -48,6 +60,12 @@ export default {
     }
     .link ul {
         display: flex;
+        svg {
+          width: 1.25rem;
+          height: 1.25rem;
+          margin-right: 2rem;
+          cursor: pointer;
+        }
     }
 }
 </style>
