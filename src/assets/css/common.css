@@ -12,3 +12,8 @@ a {
     text-decoration: none;
     color: black;
 }
+
+
+pre {
+    font-family: 'Microsoft Yahei'
+}

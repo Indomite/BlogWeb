@@ -3,10 +3,10 @@
       <div class="nav">
           <ul>
               <li>
-                <a href="/">主页</a>
+                <!-- <a href="/">主页</a> -->
               </li>
               <li>
-                <a href="#/article">文章</a>
+                <a href="#/article">主页</a>
               </li>
               <li>
                 <a href="#/tag">标签</a>
@@ -18,7 +18,9 @@
       </div>
       <div class="link">
           <ul>
-              <li><EmailSVG /></li>
+              <li>
+                <a href="mailto:Indomite@qq.com"><EmailSVG /></a>
+              </li>
               <li>
                 <a href="https://github.com/Indomite"><GitHubSVG /></a>
               </li>
@@ -50,12 +52,11 @@ export default {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 4rem;
     // background: #eee;
     .nav ul {
         display: flex;
         li {
-            margin-right: 2.5rem;
+          margin-right: 2rem;
         }
     }
     .link ul {

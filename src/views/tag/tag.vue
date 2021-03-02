@@ -3,10 +3,10 @@
     <Header></Header>
     <div class="container">
       <h1>标签</h1>
-      <div :data="tagList">
-        <ul class="aside-content">
+      <div class="content">
+        <ul>
           <li v-for="item in tagList" :key="item.id">
-            <div class="tag">{{item.name}}</div>
+            <span class="tag"><a href="">{{item.name}}</a></span>
           </li>
         </ul>
       </div>
@@ -30,7 +30,7 @@ export default {
       queryInfo: {
         keyword: '',
         pageIndex: 1,
-        pageSize: 5
+        pageSize: 100
       },
       tagList: []
     }
@@ -55,5 +55,18 @@ export default {
 .container {
   margin: 0 auto;
   max-width: 960px;
+  overflow: hidden;
+  ul>li {
+    margin: 0.25rem 0.5rem;
+    float: left;
+    a {
+      display: inline-block;
+      padding: 0 1.5rem;
+      line-height: 2rem;
+      border-radius: 1rem;
+      background: #333;
+      color: #fff;
+    }
+  }
 }
 </style>
