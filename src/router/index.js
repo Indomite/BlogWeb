@@ -12,7 +12,7 @@ const router = new VueRouter({
   routes: [
     { path: '/', component: Index },
     { path: '/article', component: Article },
-    { path: '/detail/:Id', component: Detail },
+    { path: '/article/:id', component: Detail },
     { path: '/tag', component: Tag },
     { path: '/about', component: About }
   ]
