@@ -9,6 +9,9 @@
         <a href="#/article">技术博客</a>
       </div>
       <div class="item">
+        <a href="https://github.com/Indomite/IndomiteNotes">学习笔记</a>
+      </div>
+      <div class="item">
         <a href="https://github.com/Homyit-Studio">宏奕工作室</a>
       </div>
       <div class="item">
